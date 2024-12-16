@@ -12,6 +12,7 @@ const s1 = Symbol("a");
 const s2 = Symbol("a");
 
 // console.log(s1 == s2);
+// false 一意を持つ
 
 function add3(num1, num2) {
   return this + num1 + num2;
